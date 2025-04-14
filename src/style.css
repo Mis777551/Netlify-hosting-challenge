@@ -8,7 +8,18 @@ body {
     text-align: left;
     background-color: white;
 }
-*, ::after, ::before {
+img {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: block;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+::after, ::before {
     box-sizing: border-box;
 }
 container {
